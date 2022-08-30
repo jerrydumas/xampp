@@ -13,7 +13,7 @@
 ##PhpMyAdmin configuration file:
 /Applications/XAMPP/xamppfiles/phpmyadmin/config.inc.php
 
-Run xampp services by command line
+##Run xampp services by command line
 
 To start apache service
 sudo /Applications/XAMPP/xamppfiles/bin/apachectl start
@@ -40,7 +40,7 @@ $ sudo vi /etc/apache2/httpd.conf
 Make changes as per your needs. Close and save the file. To reload new changes, run:
 sudo apachectl graceful
 
-Troubleshooting via the Terminal
+##Troubleshooting via the Terminal
 
 Step 1, Find the PID (process ID) via the terminal, 
 such as _mysql  13722
@@ -58,10 +58,9 @@ Step 2, kill the PID
 
 sudo kill -pid
 
+##In Terminal, launch the following command:
 
-In Terminal, launch the following command:
-
-sudo /Applications/XAMPP/xamppfiles/xampp
+###sudo /Applications/XAMPP/xamppfiles/xampp
 
 Usage: xampp <action>
 
@@ -92,7 +91,7 @@ oci8 Enable the oci8 extenssion
 
 fix_rights Resets file permissions
 
-Virtual Host (Server Directives)
+##Virtual Host (Server Directives)
 <VirtualHost *:80>
     DocumentRoot “/Users/username/Project/"
     ServerName 127.0.0.1
