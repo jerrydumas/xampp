@@ -1,19 +1,19 @@
-#XAMPP Web Server
+# XAMPP Web Server
 
-##Apache configuration file: 
+### Apache configuration file: 
 /Applications/XAMPP/xamppfiles/etc/httpd.conf,
 /Applications/XAMPP/xamppfiles/etc/extra/httpd-xampp.conf
 
-##PHP configuration file:
+### PHP configuration file:
 /Applications/XAMPP/xamppfiles/etc/php.ini
-##MySQL configuration file:
+### MySQL configuration file:
 /Applications/XAMPP/xamppfiles/etc/my.cnf
-##ProFTPD configuration file:
+### ProFTPD configuration file:
 /Applications/XAMPP/xamppfiles/etc/proftpd.conf
-##PhpMyAdmin configuration file:
+### PhpMyAdmin configuration file:
 /Applications/XAMPP/xamppfiles/phpmyadmin/config.inc.php
 
-##Run xampp services by command line
+### Run xampp services by command line
 
 To start apache service
 sudo /Applications/XAMPP/xamppfiles/bin/apachectl start
