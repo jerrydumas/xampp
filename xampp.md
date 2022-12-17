@@ -107,4 +107,4 @@ fix_rights Resets file permissions
 	</Directory>
 </VirtualHost>
 
-** Please Note the directory directives might need to be adjusted for your system **
+**Please Note the directory directives might need to be adjusted for your system**
