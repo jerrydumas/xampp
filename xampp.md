@@ -1,4 +1,4 @@
-**#XAMPP Web Server**
+#XAMPP Web Server
 
 ##Apache configuration file: 
 /Applications/XAMPP/xamppfiles/etc/httpd.conf,
