@@ -40,7 +40,7 @@ $ sudo vi /etc/apache2/httpd.conf
 Make changes as per your needs. Close and save the file. To reload new changes, run:
 sudo apachectl graceful
 
-##Troubleshooting via the Terminal
+### Troubleshooting via the Terminal
 
 Step 1, Find the PID (process ID) via the terminal, 
 such as _mysql  13722
@@ -58,9 +58,9 @@ Step 2, kill the PID
 
 sudo kill -pid
 
-##In Terminal, launch the following command:
+### In Terminal, launch the following command:
 
-###sudo /Applications/XAMPP/xamppfiles/xampp
+### sudo /Applications/XAMPP/xamppfiles/xampp
 
 Usage: xampp <action>
 
@@ -107,4 +107,4 @@ fix_rights Resets file permissions
 	</Directory>
 </VirtualHost>
 
-**Please Note the directory directives might need to be adjusted for your system
+** Please Note the directory directives might need to be adjusted for your system **
