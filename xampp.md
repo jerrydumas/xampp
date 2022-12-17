@@ -91,7 +91,7 @@ oci8 Enable the oci8 extenssion
 
 fix_rights Resets file permissions
 
-##Virtual Host (Server Directives)
+## Virtual Host (Server Directives)
 <VirtualHost *:80>
     DocumentRoot “/Users/username/Project/"
     ServerName 127.0.0.1
